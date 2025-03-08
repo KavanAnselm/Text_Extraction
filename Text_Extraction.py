@@ -63,8 +63,8 @@ def save_extracted_text(extracted_text, output_path):
         text_file.write(extracted_text)
 
 def main():
-    pdf_path = r"C:\Users\Kavan\Downloads\Science\Science_Chapter_13.pdf"  # Actual file path
-    output_path = r"C:\Users\Kavan\Downloads\Science\Science_Chapter_13.txt"  # Output file path
+    pdf_path = r"C:\Users\Downloads\Sample.pdf"  # Actual file path
+    output_path = r"C:\Users\Downloads\Sample.txt"  # Output file path
 
     extracted_text = extract_text_from_pdf(pdf_path)
     preprocessed_text = preprocess_text(extracted_text)
